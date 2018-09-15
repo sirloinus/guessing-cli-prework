@@ -4,8 +4,9 @@ def run_guessing_game
   loop do
     if guess == 0
       puts 'gjfvl'
-    else
+    elsif guess == 'exit'
       puts 'Goodbye!'
+    else
       break
     end
   end
